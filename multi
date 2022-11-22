@@ -1,0 +1,4 @@
+n=int(input('enter n:'))
+r=int(input('enter r:'))
+s=n*r
+print(s)
