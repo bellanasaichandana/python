@@ -1,0 +1,6 @@
+P=23456
+R=9;
+T=6;
+R= rate/(12*100)
+T=time*12
+Print('monthly emi ')
