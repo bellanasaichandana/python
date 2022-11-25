@@ -1,0 +1,14 @@
+A=int(input('enter a:') 
+B=int(input('enter b:') 
+if a<b:
+print('b big') 
+else:
+print('c big')
+if a>b:
+print('a is big') 
+else:
+Print('b is big')
+if a==b:
+Print('a is big')
+else:
+print('b is big')
