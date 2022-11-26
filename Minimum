@@ -1,0 +1,3 @@
+A={14, 23,45,67}
+Smallest=min(a) 
+Print ('min num is')
