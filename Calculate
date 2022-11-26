@@ -1,0 +1,4 @@
+A={10, 20,12,34,33}
+For num in A:
+If num%2==0:
+Print(num, end=" ") 
