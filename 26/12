@@ -1,0 +1,4 @@
+A=int(input('enter a:') ) 
+B=int(input('enter b:')) 
+C=a+b:
+Print('enter c') 
