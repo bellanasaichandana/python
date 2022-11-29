@@ -1,0 +1,10 @@
+#atm pin
+pin=2552
+n=int(input('enter pin:'))
+if pin!=n:
+    print('incorrect pin number please try again !!!')
+else:print('continue the transaction')
+
+output
+enter pin:2555
+incorrect pin number please try again !!!
