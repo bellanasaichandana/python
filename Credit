@@ -1,0 +1,12 @@
+
+#atm balance credit process
+balance=1000
+n=int(input('enter amount:'))
+m=balance+n
+print('credited amount:',n)
+print('main balance:',m)
+
+output
+enter amount:4000
+credited amount: 4000
+main balance: 5000
