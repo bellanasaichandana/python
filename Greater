@@ -1,0 +1,10 @@
+
+
+#number is greater than or less than 100
+n=int(input('enter number:'))
+if n>100:print('number is greater than 100')
+else:print('number is less than 100')
+
+output
+enter number:20
+number is less than 100
