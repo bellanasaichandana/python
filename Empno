@@ -1,0 +1,19 @@
+empno=int(input('employee number:'))
+empname=input('employee name:')
+empdesig=input('designation:')
+salary=int(input('salary:'))
+travelling_allowance=int(input('travelling allowance'))
+house_rental_allowance=int(input('house rental allowance'))
+daily_allowance=int(input('daily allowance'))
+net_salary=salary+travelling_allowance+house_rental_allowance+daily_allowance
+if net_salary>100000:
+    tax=net_salary*10/100
+    print(tax)
+if net_salary>50000:
+    tax=net_salary*7/100
+    print(tax)
+if net_salary>40000:
+    tax=net_salary*4/100
+    print(tax)
+else:
+    print("NO TAX")
