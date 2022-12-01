@@ -1,0 +1,25 @@
+employee tax bill
+empno=input('employee number:')  #12HA1
+empname=input('enter employee name:')#devi
+empdesig=input('Employee designation:')#software eng
+basicpay=int(input('basic salary:'))#25000
+da=int(input('Daily allowance:'))#10000
+ta=int(input('travelling allowance:'))#3000
+hra=int(input('house rental allowance:'))#10000
+netsalary=basicpay+da+ta+hra#48000
+if netsalary>100000:
+    tax=netsalary*10/1 huh00
+elif netsalary>50000:
+    tax=netsalary*7/100
+elif netsalary>30000:
+    tax=netsalary*5/100
+elif netsalary>20000:
+    tax=netsalary*2/100
+else:
+    tax=0
+print('empno:',empno)
+print('empname:',empname)
+print('tax to be paid:',tax)
+'''
+
+
