@@ -1,0 +1,44 @@
+coupon code offer 500+ discount 20%   300+  15%  ,coupon code:ADITYA
+#coupon code offer 300+ 30%,coupon code:PYTHON
+#preparing Restraunt Bill
+vbc=200
+cbc=250
+mbc=350
+rice=60
+wb=25
+cphno=input('Enter Customer phone number:')#123
+cname=input('Enter Customer name:')#ravi
+caddr=input('Enter customer address:')#vzm
+bq=int(input('How many Birayani packets you want!'))#1
+cbq=int(input('How many Chicken Birayani packets you want!'))#0
+mbq=int(input('How many Mottun Birayani packets you want!'))#0
+rq=int(input('How many Rice packets you want!'))#0
+wbq=int(input('How many Water Bottles you want!'))#1
+coupon=input('Enter coupon code in capital letters:')
+bill=(bq*vbc)+(cbq*cbc)+(mbq*mbc)+(rice*rq)+(wb*wbq)#225
+if bill>=1000:
+    tax=bill*18/100
+elif bill>=700:
+    tax=bill*15/100
+elif bill>=500:
+    tax=bill*12/100
+elif bill>=300:
+    tax=bill*10/100
+elif bill>=200:
+    tax=bill*5/100
+else:
+    tax=35
+if coupon =='ADITYA' and bill>=500:
+    dis=bill*20/100
+elif coupon=='ADITYA' and bill>=300:
+    dis=bill*15/100
+elif coupon=='PYTHON' and bill>=300:
+    dis=bill*30/100
+else:
+    dis=0
+print('bill without tax:',bill)
+print('tax:',tax)
+print('Discount:',dis)
+bill=bill+tax-dis
+print('Customer phonenumber:',cphno)
+print('Customer Name:',cnam
