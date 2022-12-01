@@ -1,0 +1,20 @@
+#BIGGEST OF FOUR NUMBERS
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if a>b:
+    if a>c:
+        if a>d:
+            print('a is big')
+if b>c:
+    if b>d:
+        if b>a:
+            print(' b is big')
+if c>d:
+    if c>a:
+        if c>b:
+            print('c is big')
+else:
+    print('d is big')
+
